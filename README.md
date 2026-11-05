@@ -48,3 +48,7 @@ To rebuild the figure: `cd figures && pdflatex domain.tex && magick -density 250
 - `wallpapers/`: green 532 nm colouring, phone 1290 × 2796 and desktop 3840 × 2400.
 - `livephoto/`: one forcing period compressed in time to 3.2 s, 2 s and 1.5 s (MP4), and Live Photo packages `.pvt` (2 s, 1.5 s). Double-click a `.pvt` on a Mac to import it into Photos. iOS lists such synthetic Live Photos in the library but, so far, not as live lock-screen wallpapers.
 - `scripts/`: `render_cover_seq.py` (sources, field, time-continuous RK4), `live_wallpaper.py` (dye with point insertion and the Live Photo frames), `make_live_wallpaper.swift` (AVFoundation pair with content identifier and still-image-time track), `wallpaper_piv.py` (green colouring). They need the native period files of the run, which are not in this repository.
+
+## May 2026 poster (`may2026_poster/`)
+
+The earlier images, shown at the CSME–CFDSC–CSR 2026 Gallery of Science and Engineering: the A1 landscape poster (`poster_A1.pdf`, `poster_A1.png`) and two streakline triptychs (`triptych_balanced.png`, `triptych_balanced_shiftup.png`). They were computed by the earlier MATLAB solver (v20): Re = 5000, domain 5 × 1, grid 250 × 250, travelling wave u = 1 + A cos(kx − ωt) on an impermeable moving lid, k = 2π, ω = 2π, A = 0.95, uniform inflow with the upper 20 % of the inlet oscillating as ((y − 0.8)/0.2)^3. Dye released at the inlet along 34 rows plus 30 rows in the upper 30 %, forward-Euler particle tracking, scatter plot white on black.
