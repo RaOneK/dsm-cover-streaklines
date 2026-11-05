@@ -2,7 +2,7 @@
 
 Streakline (dye) images of a forced flat-plate boundary layer, white on black, made for a journal-cover / gallery submission, plus green "PIV-style" wallpapers and a phone Live Photo.
 
-Author: Rauan Kelesbekov, University of Alberta.
+Authors: Rauan Kelesbekov and Rouslan Krechetnikov, Department of Mathematical and Statistical Sciences, University of Alberta.
 
 ## What is solved
 
