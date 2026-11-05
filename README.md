@@ -31,8 +31,6 @@ on $0.04\le x\le 5$, $0\le y\le H=1$, with
 
 Solver: Fortran DSM (copy of the campaign source), stream-function formulation, grid 496 × 176 refined at the plate (Δy = 0.0015) and under the lid (Δy = 0.002), Δt = T/4096. Periodicity of the flow at A = 0.95 was not checked; the dye is carried through the saved periods in time order.
 
-**This is not the setup of the DSM article** (Re = 800, open prescribed upper boundary, numerical steady inlet with a region upstream of the plate). The run was made only for the picture, so the image is not a reused article figure.
-
 To rebuild the figure: `cd figures && pdflatex domain.tex && magick -density 250 domain.pdf -background white -alpha remove -alpha off domain.png`.
 
 ## Dye and drawing
